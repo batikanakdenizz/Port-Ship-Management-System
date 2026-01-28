@@ -1,0 +1,12 @@
+# Derlenmiş dosyalar
+/out/
+*.class
+
+# IDE Ayarları (Başkalarının ayarlarını bozmamak için)
+.idea/
+*.iml
+*.iws
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
