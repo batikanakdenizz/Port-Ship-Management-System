@@ -1,23 +1,23 @@
 # Port & Ship Management System
 
-### ⚓ A Comprehensive Maritime Operations & Logistics Solution
+### ⚓ A Comprehensive Maritime Operations & Logistics Solution 
 
-**Port & Ship Management System** is a robust, enterprise-grade desktop application designed to digitize and automate the complex workflow of port authorities, shipping lines, and logistics companies. Developed using **Java** and **MySQL**, this system adheres to Object-Oriented Programming (OOP) principles to ensure modularity, scalability, and data integrity.
+**Port & Ship Management System** is a robust, enterprise-grade desktop application designed to digitize and automate the complex workflow of port authorities, shipping lines, and logistics companies. Developed using **Java** and **MySQL**, this system adheres to Object-Oriented Programming (OOP) principles to ensure modularity, scalability, and data integrity. 
 
-This project serves as a full-stack desktop solution, integrating a **Java Swing** graphical user interface (GUI) with a relational **MySQL database** backend to handle high-volume operational data.
+This project serves as a full-stack desktop solution, integrating a **Java Swing** graphical user interface (GUI) with a relational **MySQL database** backend to handle high-volume operational data. 
 
 ---
 
 ## 🛠️ Technical Specifications
 
-This system is built on a solid foundation of industry-standard technologies:
+This system is built on a solid foundation of industry-standard technologies: 
 
-### Core Technologies
-* **Programming Language:** Java (JDK 21) - Utilized for core logic and backend processing.
-* **GUI Framework:** Java Swing - Provides a responsive and user-friendly desktop interface.
-* **Database Engine:** MySQL 8.0 - Relational database management system (RDBMS) for persistent data storage.
-* **Database Connectivity:** JDBC (Java Database Connectivity) - Implements secure and efficient communication between the Java application and MySQL.
-
+### Core Technologies 
+* **Programming Language:** Java (JDK 21) - Utilized for core logic and backend processing. 
+* **GUI Framework:** Java Swing - Provides a responsive and user-friendly desktop interface. 
+* **Database Engine:** MySQL 8.0 - Relational database management system (RDBMS) for persistent data storage. 
+* **Database Connectivity:** JDBC (Java Database Connectivity) - Implements secure and efficient communication between the Java application and MySQL. 
+ 
 ### Development Tools
 * **IDE:** IntelliJ IDEA
 * **Version Control:** Git & GitHub
