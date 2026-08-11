@@ -83,11 +83,18 @@ Follow these steps to deploy the application in a local development environment:
     git clone https://github.com/batikanakdenizz/Port-Ship-Management-System.git
     ```
 2.  Open the project in your IDE.
-3.  Navigate to `src/DatabaseConnector.java` and update the credentials to match your local MySQL instance:
-    ```java
-    private static final String URL = "jdbc:mysql://localhost:3306/portshipsecure";
-    private static final String USER = "your_username"; // e.g., root
-    private static final String PASSWORD = "your_password";
+3.  Set the database credentials as environment variables. They are read at startup, so no
+    password is stored in the source:
+    ```bash
+    export PORTSHIP_DB_USER=root
+    export PORTSHIP_DB_PASSWORD=your_password
+    # optional; defaults to jdbc:mysql://localhost:3306/portshipsecure
+    export PORTSHIP_DB_URL="jdbc:mysql://localhost:3306/portshipsecure"
+    ```
+    On Windows PowerShell:
+    ```powershell
+    $env:PORTSHIP_DB_USER = "root"
+    $env:PORTSHIP_DB_PASSWORD = "your_password"
     ```
 
 ### Step 3: Execution
