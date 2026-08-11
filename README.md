@@ -21,7 +21,7 @@ This system is built on a solid foundation of industry-standard technologies:
 ### Development Tools
 * **IDE:** IntelliJ IDEA
 * **Version Control:** Git & GitHub
-* **Design Pattern:** Layered Architecture (separation of GUI, Logic, and Data Access).
+* **Architecture:** Swing panels for the interface, JDBC through a single `DatabaseConnector` for data access. One self-contained panel class per management module.
 
 ---
 
