@@ -80,7 +80,7 @@ Follow these steps to deploy the application in a local development environment:
 ### Step 2: Application Configuration
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/YourUsername/PortShipManagement.git](https://github.com/YourUsername/PortShipManagement.git)
+    git clone https://github.com/batikanakdenizz/Port-Ship-Management-System.git
     ```
 2.  Open the project in your IDE.
 3.  Navigate to `src/DatabaseConnector.java` and update the credentials to match your local MySQL instance:
